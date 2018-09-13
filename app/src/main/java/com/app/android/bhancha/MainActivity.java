@@ -12,6 +12,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -80,18 +81,22 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_camera) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_home) {
 
-        } else if (id == R.id.nav_slideshow) {
-
-        } else if (id == R.id.nav_manage) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
+        } else if (id == R.id.nav_favorites) {
+            Toast.makeText(this, "Yet to be Implemented", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.nav_recents) {
+            Toast.makeText(this, "Yet to be Implemented", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.nav_main) {
+            Toast.makeText(this, "Yet to be Implemented", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.nav_breakfast) {
+            Toast.makeText(this, "Yet to be Implemented", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.nav_lunch){
+            Toast.makeText(this, "Yet to be Implemented", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.nav_dessert){
+            Toast.makeText(this, "Yet to be Implemented", Toast.LENGTH_SHORT).show();
+        } else if (id == R.id.nav_Nepali){
+            Toast.makeText(this, "Yet to be Implemented", Toast.LENGTH_SHORT).show();
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -5,33 +5,41 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_main_home"
+            android:title="Home" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/ic_main_favorites"
+            android:title="Favorites" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:id="@+id/nav_recents"
+            android:icon="@drawable/ic_main_recents"
+            android:title="Recently Viewed" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="Recipe Categories">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/nav_main"
+                android:icon="@drawable/ic_main_dishes"
+                android:title="Main Dishes" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_breakfast"
+                android:icon="@drawable/ic_breakfast"
+                android:title="Breakfast" />
+            <item
+                android:id="@+id/nav_lunch"
+                android:icon="@drawable/ic_lunch"
+                android:title="Lunch/Snacks" />
+            <item
+                android:id="@+id/nav_dessert"
+                android:icon="@drawable/ic_dessert"
+                android:title="Dessert" />
+            <item
+                android:id="@+id/nav_Nepali"
+                android:icon="@drawable/ic_flag"
+                android:title="Nepali" />
         </menu>
     </item>
 
